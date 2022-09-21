@@ -20,7 +20,7 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - Take exponents for both side:<br>
  <img src="imgs/take-exponent.PNG" width="250" height="70"></img>
 - Then, p (the probability of y=1 for x) is <br>
- <img src="imgs/p-definition.PNG" width="250" height="70"></img>
+ <img src="imgs/p-definition.PNG" width="250" height="60"></img>
 
 ### Loss Function Formulation, E( $W$ )
 - Simply, use the loss function used in <b>Linear Regression</b> (Least Squares Error)<br>
@@ -29,9 +29,9 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - This if we use <b>Least Squares Error</b> for Gradient Descent Method, it is highly likely that the function converges in one of local minimum
 - Derive Loss Function from <b>Maximum Likelihood Estimation</b>
 - Just like finding $\Theta$ that maximizes $\Sigma$ P(x| $\Theta$ )<br>
-<img src="imgs/mle.PNG" width="250" height="70"></img>
+<img src="imgs/mle.PNG" width="250" height="50"></img>
 - Find $w$ that maximizes <br>
-<img src="imgs/loss-from-mle.PNG" width="250" height="70"></img>
+<img src="imgs/loss-from-mle.PNG" width="350" height="70"></img>
 
 
 
