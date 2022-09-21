@@ -10,8 +10,17 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 
 ### Odds ( $\ne$ Probability)
 - defined as 'probability that the event will occur divied by the probability that the event will not occur <br>
-<img src="https://miro.medium.com/max/1400/1*8ix_A7GUKH9AsZxouYg-uw.png" width="250" height="250"></img>
+<img src="imgs/odd-equation.PNG" width="250" height="90"></img>
 <img src="https://miro.medium.com/max/1400/1*8ix_A7GUKH9AsZxouYg-uw.png" width="300" height="200"></img>
+
+### Mapping the linear equation f(x) to log odds
+- In Linear Regression, $f(x) = W^TX$
+- Let p = P(y=1|x)<br>
+ <img src="imgs/odd-equation.PNG" width="250" height="70"></img>
+- Take exponents for both side:<br>
+ <img src="imgs/odd-equation.PNG" width="250" height="90"></img>
+- Then, p (the probability of y=1 for x) is <br>
+ <img src="imgs/odd-equation.PNG" width="250" height="90"></img>
 
 
 
