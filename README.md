@@ -11,5 +11,3 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 
 ## Reference
 SungKyunKwan University, College of Computing, SWE3050_41
-
-<li></li>
