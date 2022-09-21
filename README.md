@@ -29,9 +29,9 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - This if we use <b>Least Squares Error</b> for Gradient Descent Method, it is highly likely that the function converges in one of local minimum
 - Derive Loss Function from <b>Maximum Likelihood Estimation</b>
 - Just like finding $\Theta$ that maximizes $\Sigma$ P(x| $\Theta$ )<br>
-<img src="imgs/p-definition.PNG" width="250" height="70"></img>
+<img src="imgs/mle.PNG" width="250" height="70"></img>
 - Find $w$ that maximizes <br>
-<img src="imgs/p-definition.PNG" width="250" height="70"></img>
+<img src="imgs/loss-from-mle.PNG" width="250" height="70"></img>
 
 
 
