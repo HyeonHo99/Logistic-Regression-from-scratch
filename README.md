@@ -50,6 +50,40 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 ### Final Gradient Form
 <img src="imgs/final-formula.PNG" width="500" height="60"></img><br><br>
 
+### Python Code for Computing Gradient
+```python
+        def compute_grad(self, x, y, weight, logit):
+        """
+        N : # of minibatch data
+        D : # of features
+
+        Inputs:
+        x : (N, D), input data
+        y : (N, ), label for each data
+        weight : (D, 1), Weight matrix of classifier
+        logit: (N, 1), logits for N data
+
+        Returns:
+        gradient of weight: (D, 1), Gradient of weight to be applied (dL/dW)
+
+        Description:
+        Given input, label, weight, logit, compute gradient of weight.
+        """
+
+        num_data, num_feat = x.shape
+        
+        y = np.expand_dims(y, axis=1)
+
+        grad_weight = np.zeros_like(weight)
+
+        score = np.dot(x,self.W)
+        score = self._sigmoid(score)
+        temp = (score -y).reshape(1,-1)
+        grad_weight = (1/num_data)*np.dot(temp,x)
+        grad_weight = grad_weight.reshape(-1,1)
+
+        return grad_weight
+```
 
 ## Sample Dataset
 #### EMNIST
