@@ -39,9 +39,10 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 
 ## Computing Gradients (Computing Partial Derivatives) -details
 #### Solve one by one using Chain Rule
-<img src="imgs/chain-rule-1.PNG" width="700" height="350"></img>
-#### Apply derivative of h (sigmoid / logistic function)
-<img src="imgs/chain-rule-2.PNG" width="700" height="350"></img>
+<img src="imgs/chain-rule-1.PNG" width="700" height="400"></img><br>
+
+#### Apply derivative of h (logistic function)
+<img src="imgs/chain-rule-2.PNG" width="700" height="300"></img>
 
 
 
