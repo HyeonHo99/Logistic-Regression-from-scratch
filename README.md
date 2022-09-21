@@ -85,11 +85,15 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
         return grad_weight
 ```
 
-## Sample Dataset
-#### EMNIST
-<img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
-#### Breast Cancer
+## Multinomail Logistic Regression
+#### Use Softmax function instead of Logistic (Sigmoid) function
+
+
+## Sample Datase
+#### Breast Cancer - for Logistic Regression (binary classes)
 <img src="https://pyimagesearch.com/wp-content/uploads/2019/02/breast_cancer_classification_dataset.jpg" width="300" height="200"></img>
+#### EMNIST - for SoftmaxClassifier (more than two classes)
+<img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
 
 ## Reference
 SungKyunKwan University, College of Computing, SWE3050_41
