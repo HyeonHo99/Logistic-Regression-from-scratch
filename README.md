@@ -22,7 +22,7 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - Then, p (the probability of y=1 for x) is <br>
  <img src="imgs/p-definition.PNG" width="250" height="60"></img>
 
-### Loss Function Formulation, E( $W$ )
+## Loss Function Formulation : E( $W$ )
 - Simply, use the loss function used in <b>Linear Regression</b> (Least Squares Error)<br>
  <img src="imgs/loss-formula.PNG" width="500" height="70"></img><br>
 - This gives <b>non-convex function</b> for w, which does not guarantee global minimum
@@ -37,6 +37,7 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - In the end, the Loss Function can be shown as <br>
 <img src="imgs/final-formula.PNG" width="450" height="70"></img>
 
+## Computing Gradients (Computing Partial Derivatives) -details
 
 
 
