@@ -42,9 +42,13 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 <img src="imgs/chain-rule-1.PNG" width="700" height="400"></img><br>
 
 #### Apply derivative of h (logistic function)
-<img src="imgs/chain-rule-2.PNG" width="700" height="300"></img>
+<img src="imgs/chain-rule-2.PNG" width="650" height="300"></img><br>
 
+#### Apply derivative of f (linear equation)
+<img src="imgs/chain-rule-3.PNG" width="600" height="300"></img><br><br>
 
+### Final Gradient Form
+<img src="imgs/final-formula.PNG" width="500" height="60"></img><br><br>
 
 
 ## Sample Dataset
