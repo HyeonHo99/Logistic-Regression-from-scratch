@@ -32,6 +32,9 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 <img src="imgs/mle.PNG" width="250" height="50"></img>
 - Find $w$ that maximizes <br>
 <img src="imgs/loss-from-mle.PNG" width="350" height="70"></img>
+- Then, by applying log each side and combining sigma : <br>
+<img src="imgs/derivation.PNG" width="700" height="350"></img>
+
 
 
 
