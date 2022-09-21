@@ -23,6 +23,11 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
  <img src="imgs/p-definition.PNG" width="250" height="70"></img>
 
 
+## Sample Dataset
+#### EMNIST
+<img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
+#### Breast Cancer
+<img src="https://pyimagesearch.com/wp-content/uploads/2019/02/breast_cancer_classification_dataset.jpg" width="300" height="200"></img>
 
 ## Reference
 SungKyunKwan University, College of Computing, SWE3050_41
