@@ -34,8 +34,8 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 <img src="imgs/loss-from-mle.PNG" width="350" height="70"></img>
 - Then, by applying log each side and combining sigma : <br>
 <img src="imgs/derivation.PNG" width="700" height="350"></img>
-
-
+- In the end, the Loss Function can be shown as <br>
+<img src="imgs/final-formula.PNG" width="450" height="70"></img>
 
 
 
