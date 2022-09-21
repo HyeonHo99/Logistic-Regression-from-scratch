@@ -38,14 +38,62 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 <img src="imgs/final-formula.PNG" width="450" height="70"></img>
 
 ## Computing Gradients (Computing Partial Derivatives) -details
+#### Solve one by one using Chain Rule
+<img src="imgs/chain-rule-1.PNG" width="700" height="400"></img><br>
+
+#### Apply derivative of h (logistic function)
+<img src="imgs/chain-rule-2.PNG" width="650" height="300"></img><br>
+
+#### Apply derivative of f (linear equation)
+<img src="imgs/chain-rule-3.PNG" width="600" height="300"></img><br><br>
+
+### Final Gradient Form
+<img src="imgs/final-formula.PNG" width="500" height="60"></img><br><br>
+
+### Python Code for Computing Gradient
+```python
+        def compute_grad(self, x, y, weight, logit):
+        """
+        N : # of minibatch data
+        D : # of features
+
+        Inputs:
+        x : (N, D), input data
+        y : (N, ), label for each data
+        weight : (D, 1), Weight matrix of classifier
+        logit: (N, 1), logits for N data
+
+        Returns:
+        gradient of weight: (D, 1), Gradient of weight to be applied (dL/dW)
+
+        Description:
+        Given input, label, weight, logit, compute gradient of weight.
+        """
+
+        num_data, num_feat = x.shape
+        
+        y = np.expand_dims(y, axis=1)
+
+        grad_weight = np.zeros_like(weight)
+
+        score = np.dot(x,self.W)
+        score = self._sigmoid(score)
+        temp = (score -y).reshape(1,-1)
+        grad_weight = (1/num_data)*np.dot(temp,x)
+        grad_weight = grad_weight.reshape(-1,1)
+
+        return grad_weight
+```
+
+## Multinomail Logistic Regression
+#### Use Softmax function instead of Logistic (Sigmoid) function
 
 
-
-## Sample Dataset
-#### EMNIST
-<img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
-#### Breast Cancer
+## Sample Datase
+#### Breast Cancer - for Logistic Regression (binary classes)
 <img src="https://pyimagesearch.com/wp-content/uploads/2019/02/breast_cancer_classification_dataset.jpg" width="300" height="200"></img>
+#### EMNIST - for SoftmaxClassifier (more than two classes)
+<img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
 
 ## Reference
 SungKyunKwan University, College of Computing, SWE3050_41
