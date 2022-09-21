@@ -22,6 +22,10 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - Then, p (the probability of y=1 for x) is <br>
  <img src="imgs/p-definition.PNG" width="250" height="70"></img>
 
+### Loss Function Formulation, E( $W$ )
+ <img src="imgs/p-definition.PNG" width="270" height="70"></img>
+
+
 
 ## Sample Dataset
 #### EMNIST
