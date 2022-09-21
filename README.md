@@ -23,7 +23,7 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
  <img src="imgs/p-definition.PNG" width="250" height="70"></img>
 
 ### Loss Function Formulation, E( $W$ )
- <img src="imgs/p-definition.PNG" width="270" height="70"></img>
+ <img src="imgs/loss-formula.PNG" width="270" height="70"></img>
 
 
 
