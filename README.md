@@ -26,8 +26,9 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 - Simply, use the loss function used in <b>Linear Regression</b> (Least Squares Error)<br>
  <img src="imgs/loss-formula.PNG" width="500" height="70"></img><br>
 - This gives <b>non-convex function</b> for w, which does not guarantee global minimum
-- This if we use <b>Least Squares Error</b> for Gradient Descent Method, it is highly likely that the function converges in one of local minimum
-- Derive Loss Function from <b>Maximum Likelihood Estimation</b>
+- This if we use <b>Least Squares Error</b> for Gradient Descent Method, it is highly likely that the function converges in one of local minimums
+- <b>So we don't use Least Squares Error for Logistic Regression</b>
+- Then, we derive Loss Function from <b>Maximum Likelihood Estimation</b>
 - Just like finding $\Theta$ that maximizes $\Sigma$ P(x| $\Theta$ )<br>
 <img src="imgs/mle.PNG" width="200" height="70"></img>
 - Find $w$ that maximizes <br>
