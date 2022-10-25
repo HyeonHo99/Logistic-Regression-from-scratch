@@ -97,4 +97,4 @@ Numpy implementation of Logistic Regression (w/o explicit ML libraries, such as 
 <img src="http://greg-cohen.com/datasets/emnist/featured.png" width="250" height="200"></img>
 
 ## Reference
-SungKyunKwan University, College of Computing, SWE3050_41
+SungKyunKwan University, College of Computing
